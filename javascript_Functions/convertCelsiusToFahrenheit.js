@@ -1,13 +1,7 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-$("document").ready(
-	function convertToF(celsius) {
+function convertToF(celsius) {
   		var fahrenheit;
   		// Only change code below this line
   		fahrenheit = (celsius*9/5)+32;
-  
-  		// Only change code above this line
-  		window.alert(fahrenheit);
+  		return fahrenheit;
 	}
-convertToF(30);
-);
-</script>
+console.log("30 degrees in Fahrenheit is "+convertToF(30));

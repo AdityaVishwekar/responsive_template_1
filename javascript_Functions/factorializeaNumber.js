@@ -1,5 +1,4 @@
-<html>
-<script type="text/javascript">
+
 function factorialize(num) {
   if ( num === 0) {
     return 1;
@@ -10,6 +9,4 @@ function factorialize(num) {
   return num;
 }
 
-console.log(factorialize(5));
-</script>
-</html>
+console.log("Factorial of 5 :- "+factorialize(5));
